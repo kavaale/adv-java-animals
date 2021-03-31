@@ -11,7 +11,8 @@ public class Main {
         ArrayList<Talkable> zoo = new ArrayList<>();
 
         // Lines to Replace Begin Here
-        zoo.add(new Dog(true, "Bean"));
+        //
+        UserInput animal = new UserInput();
         zoo.add(new Cat(9, "Charlie"));
         zoo.add(new Teacher(44, "Stacy Read"));
         // End Lines to Replace
